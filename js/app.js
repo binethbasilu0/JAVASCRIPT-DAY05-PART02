@@ -40,4 +40,10 @@ let stringCustomer=JSON.stringify(customer);
 localStorage.setItem("customer",stringCustomer);
 
 
+//get customer from localStorage
 
+//1st step- retrieve string from localStorage
+let getCustomer=localStorage.getItem("customer");
+//2nd step- convert string back to object
+let parsedCustomer = JSON.parse(getcustomer);
+console.log(parsedCustomer);
