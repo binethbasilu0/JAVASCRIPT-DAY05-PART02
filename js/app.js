@@ -1,13 +1,20 @@
 console.log("Hello");
 //this "clear(); method" use to clear the session of localSgtorage
-localStorage.clear();
+//localStorage.clear();
 
 //this "setItem(); Method" use to set the key and value on the localStorage
-localStorage.setItem("name","John");
-localStorage.setItem("age","30");
-localStorage.setItem("city","New York");
+//localStorage.setItem("name","John");
+//localStorage.setItem("age","30");
+//localStorage.setItem("city","New York");
 
 
 //another method for using to remove/clear the decided value from the current session .
-localStorage.removeItem("age");
+//localStorage.removeItem("age");
 
+//How to read data form local storage
+//if the above setItems commented on the js code then date displays by using localStorage and
+//  based on session 
+let name=localStorage.getItem("name");
+let age=localStorage.getItem("age");
+let city=localStorage.getItem("city");
+console.log(name,age,city);
