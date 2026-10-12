@@ -1,1 +1,9 @@
 console.log("Hello");
+//this "clear(); method" use to clear the session of localSgtorage
+localStorage.clear();
+
+//this "setItem(); Method" use to set the key and value on the localStorage
+localStorage.setItem("name","John");
+localStorage.setItem("age","30");
+localStorage.setItem("city","New York");
+
