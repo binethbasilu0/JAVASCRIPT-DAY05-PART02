@@ -7,3 +7,7 @@ localStorage.setItem("name","John");
 localStorage.setItem("age","30");
 localStorage.setItem("city","New York");
 
+
+//another method for using to remove/clear the decided value from the current session .
+localStorage.removeItem("age");
+
